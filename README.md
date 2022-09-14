@@ -1,5 +1,5 @@
 # Aprendendo Git e Github 
-#### LEGAL! Também estou aprendendo sozinho README :+1:
+#### LEGAL! Contudo, ainda aprendi sozinho README :+1:
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Daniel-Penelva/exemplo-readme/blob/main/LICENCE)
 
 ## Curso autodidata quero aprender git e github 
