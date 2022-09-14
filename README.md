@@ -92,3 +92,5 @@ $ git push
 ```
 
 ## Criando branch
+Branch é uma ramificação, ou seja, o comando git branch permite criar, listar, renomear e excluir ramificações. 
+Vale ressaltar que o HEAD sempre será o último commit.
