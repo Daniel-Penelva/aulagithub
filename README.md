@@ -98,7 +98,7 @@ As ramificações são apenas indicadores, ou seja, quando você cria uma ramifi
 
 Vale ressaltar que o HEAD sempre será o último commit.
 
-<img src="https://github.com/Daniel-Penelva/aulagithub/blob/main/image/main-git.jpg" width="100px" height="100px">
+<img src="https://github.com/Daniel-Penelva/aulagithub/blob/main/image/main-git.jpg" width="150px" height="150px">
 
 Ele não permite alternar entre as ramificações ou reunir um histórico bifurcado de novo. Por esse motivo, o comando **_<$ git branch>_** é muito integrado com os comandos **_<$ git checkout>_** e **_<$ git merge>_**
 
@@ -139,4 +139,10 @@ Para alterar o nome de uma branch utiliza-se o comando:
 $ git branch –m nome_do_novo_branch
 ```
 **Exemplificando**
+
+Eu criei um branch teste e nele foi criado um arquivo chamado *teste.html* (através do comando touch). Farei três commits e depois vou carregar no github. 
+
+<img src="https://github.com/Daniel-Penelva/aulagithub/blob/main/image/exemplo-branch.jpg" width="950px" height="950px">
+
+:computer: Autor: Daniel Penelva de Andrade
 
