@@ -92,5 +92,51 @@ $ git push
 ```
 
 ## Criando branch
-Branch é uma ramificação, ou seja, o comando git branch permite criar, listar, renomear e excluir ramificações. 
+Branch é uma ramificação, ou seja, o comando git branch permite criar, listar, renomear e excluir ramificações. As ramificações do Git são um indicador efetivo de um instantâneo de suas mudanças. 
+
+As ramificações são apenas indicadores, ou seja, quando você cria uma ramificação, tudo o que o Git precisa fazer é criar um novo indicador, ele não muda o repositório de nenhuma outra maneira, isto é, quando se cria uma branch, automaticamente, vai sair da main. 
+
 Vale ressaltar que o HEAD sempre será o último commit.
+
+<img src="https://github.com/Daniel-Penelva/aulagithub/blob/main/image/main-git.jpg" width="100px" height="100px">
+
+Ele não permite alternar entre as ramificações ou reunir um histórico bifurcado de novo. Por esse motivo, o comando **_<$ git branch>_** é muito integrado com os comandos **_<$ git checkout>_** e **_<$ git merge>_**
+
+**OBS.** Através do comando **_<$ git log --graph --all>_** ou **_<$ git log --oneline --graph --all>_** é possível ver um gráfico dos commits executados.
+
+### PASSO A PASSO: criando branch
+
+```
+$ git checkout -b nome_branch_criada
+OBS. Criar uma branch
+OBS. O checkout vai fazer sair da branch “main” e vai para a branch criada.
+
+$ git branch
+OBS. Confere todas as suas branchs.
+
+$ git add .
+
+$ git commit -m "descrição explicativa"
+
+$ git push origin nome_branch_criada
+
+$ git checkout main
+OBS. Altera do branch criado para o branch main. 
+OBS. Vale ressaltar que para fazer o merge é preciso estar no branch main.
+
+$ git merge nome_branch_criada
+OBS. Faz a junção das branchs
+
+$ git push
+```
+
+**Observações Adicionais:**
+```
+Para deletar um branch utiliza-se o comando:
+$ git branch –d nome_do_branch
+
+Para alterar o nome de uma branch utiliza-se o comando:
+$ git branch –m nome_do_novo_branch
+```
+**Exemplificando**
+
