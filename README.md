@@ -1,4 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Daniel-Penelva/aulagithub)
+![GitHub language count](https://img.shields.io/github/languages/count/Daniel-Penelva/aulagithub)
+![GitHub top language](https://img.shields.io/github/languages/top/Daniel-Penelva/aulagithub)
 
 # Aprendendo Git e Github 
 #### LEGAL! Contudo, ainda aprendi sozinho README :+1:
