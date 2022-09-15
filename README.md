@@ -1,3 +1,5 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Daniel-Penelva/aulagithub)
+
 # Aprendendo Git e Github 
 #### LEGAL! Contudo, ainda aprendi sozinho README :+1:
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Daniel-Penelva/exemplo-readme/blob/main/LICENCE)
